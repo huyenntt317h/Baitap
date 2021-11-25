@@ -1,0 +1,37 @@
+body{
+    font-size: 17px;
+}
+div{
+    padding-bottom: 10px;
+}
+
+.button{
+    background-color: #04AA6D;
+    border-radius: 5px;
+    color: #181414;
+    border: none;
+    display: inline-block;
+    padding: 8px 14px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.button:hover{
+    box-shadow: none;
+    background-color: #ad5019;
+}
+
+.button_reset{
+    background-color: red;
+}
+
+.button_reset:hover{
+    background-color: rgb(85, 37, 196);
+}
+
+input, select{
+    padding: 6px;
+}

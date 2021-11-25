@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tiêu đề trang -->
+    <title>HTML Introduction</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Tác dụng và lợi ích của tập Yoga với sắc đẹp của phụ nữ</h1>
+      <div> 
+        <p id="paragraph1">
+          Không thể phủ nhận những tác dụng của tập yoga với phụ nữ với làn da của phụ nữ. Khi tập yoga, hệ tuần hoàn hoạt động tốt hơn, máu lưu thông đều khiến làn da được cung cấp đủ dưỡng chất và oxy. Chính điều này sẽ khiến cho làn da trở nên hồng hào, tươi trẻ. Ngoài ra, lợi ích của yoga với phụ nữ còn biểu hiện ở việc chúng giúp cơ thể thải độc hiệu quả. Chính điều này giúp cho làn da trở lên láng mịn, ít mụn và căng bóng. Và rõ ràng, việc có một làn da đẹp khiến phụ nữ trông trẻ trung hơn độ tuổi thật rất nhiều.
+        </p>
+        <p id="paragraph2">
+          Tác dụng của yoga giảm cân là một trong những lý do hàng đầu khiến chị em tìm đến với bộ môn này. Việc tập các động tác yoga giúp chị em tiêu hao năng lượng và săn chắc cơ thể một cách rõ rệt. Không chỉ dừng lại ở đó, lợi ích của yoga giảm cân còn bao gồm việc chúng giúp chị em cải thiện vóc dáng và trở nên quyến rũ hơn. Không ít người đã tìm lại được sự tự tin cùng một thân hình đẹp, cân đối nhờ vào những bài tập yoga giảm cân. Đây có thể coi là tác dụng của tập yoga đối với phụ nữ được các chị em yêu thích nhất.
+        </p>
+        <p id="paragraph3">
+          Tập yoga có lợi ích gì với vóc dáng? Như đã nói ở trên, tác dụng của tập yoga với phụ nữ là giúp giảm cân. Tuy nhiên, điều này là chưa đủ, yoga còn giúp chị em cải thiện vóc dáng rất tốt. Nếu tập yoga đều đặn, chị em sẽ có cơ thể cân đối với 3 vòng săn chắc. Chính điều đó sẽ tạo nên sự quyến rũ mà người khác không có được. Ngoài ra, lợi ích của yoga đối với nhan sắc còn biểu hiện ở chỗ chúng giúp chị em cải thiện tư thế. Với những ai gặp phải tình trạng gù lưng hoặc cột sống cong vẹo, yoga sẽ giúp điều chỉnh lại một cách chậm rãi nhưng chắc chắn. 
+          
+        </p>
+      </div>
+      <div>
+        <button onclick="changeColor()" class="button">Đổi màu text</button>
+        <button onclick="window.location.reload()" class="button button_reset">Reset</button>
+      </div>
+      <div>
+          Nhập màu nền: <input type="text" id="background_color" size="10">
+          <button onclick="changeBgColor(document.getElementById('background_color').value)" class="button">Đổi màu nền</button>
+      </div>
+
+      <div>
+          Thay đổi
+          <select id="param1">
+             <option value="0">Đoạn 1</option>
+             <option value="1">Đoạn 2</option>
+             <option value="2">Đoạn 3</option>
+          </select>
+          Thành
+          <select id="param2">
+            <option value="0">Đoạn 1</option>
+            <option value="1">Đoạn 2</option>
+            <option value="2">Đoạn 3</option>
+         </select>
+         <button class="button" onclick="copyContent(document.getElementById('param1').value, document.getElementById('param2').value)">Đổi</button>
+      </div>
+
+      <div>
+        Nhập kích thước font: <input type="text" id="font_size" size="3">
+        <button onclick="changeFontSize(document.getElementById('font_size').value)" class="button">Áp dụng</button>
+      </div>
+
+      <div>
+        Tăng kích thước font
+        <select id="font_increase">
+           <option value="0">Đoạn 1</option>
+           <option value="1">Đoạn 2</option>
+           <option value="2">Đoạn 3</option>
+        </select>
+        <button class="button" onclick="increaseFontSize(document.getElementById('font_increase').value)">Áp dụng</button>
+      
+        Giảm kích thước font
+        <select id="font_decrease">
+           <option value="0">Đoạn 1</option>
+           <option value="1">Đoạn 2</option>
+           <option value="2">Đoạn 3</option>
+        </select>
+        <button class="button" onclick="decreaseFontSize(document.getElementById('font_decrease').value)">Áp dụng</button>
+
+      </div>
+      <div>
+        
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
